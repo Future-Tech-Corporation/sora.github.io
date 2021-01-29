@@ -3042,10 +3042,10 @@ a.tag.tag-danger:active {
   border-radius: 50%;
 }
 .preloader .loader::before {
-  border-color: #76a3ae;
-  -webkit-animation: preloaderAnimation 2s 1s ease-in-out infinite;
-  -o-animation: preloaderAnimation 2s 1s ease-in-out infinite;
-  animation: preloaderAnimation 2s 1s ease-in-out infinite;
+	border-color: #00FF84;
+	-webkit-animation: preloaderAnimation 2s 1s ease-in-out infinite;
+	-o-animation: preloaderAnimation 2s 1s ease-in-out infinite;
+	animation: preloaderAnimation 2s 1s ease-in-out infinite;
 }
 .preloader .loader::after {
   -webkit-animation: preloaderAnimation 2s ease-in-out infinite;
@@ -3134,7 +3134,7 @@ a.tag.tag-danger:active {
   color: #fff;
   line-height: 32px;
   text-align: center;
-  background: #7ca7b2;
+  background: #00FF84;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
