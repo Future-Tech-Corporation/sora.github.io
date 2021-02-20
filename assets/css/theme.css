@@ -3042,7 +3042,7 @@ a.tag.tag-danger:active {
   border-radius: 50%;
 }
 .preloader .loader::before {
-  border-color: ##00FF84;
+  border-color: #FF7F50;
   -webkit-animation: preloaderAnimation 2s 1s ease-in-out infinite;
   -o-animation: preloaderAnimation 2s 1s ease-in-out infinite;
   animation: preloaderAnimation 2s 1s ease-in-out infinite;
