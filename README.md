@@ -1,2 +1,2 @@
 # sora.github.io
-soracraft.com
+SoraCraft Site Page
