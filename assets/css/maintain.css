@@ -1,0 +1,41 @@
+svg path,
+svg rect {
+  fill: #FF6700;
+}
+*{
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.maintain{
+	color: #ffffff;
+	background: #ffffff;
+	filter: Alpha(Opacity=10, Style=0);
+	opacity: 0.03;
+	position: absolute;
+	height: 100%;
+	width:100%;
+	z-index:20;
+	overflow-x:hidden; 
+	overflow-y:hidden;
+}
+.maintain-info{
+	position: absolute;
+	height: 300px;
+	width:100%;
+	text-align:relative;
+	z-index:30;
+	top: 50%;
+	margin-top: -150px; 
+}
+.blog-himg{
+	  border-radius: 30px;
+	  border: 1px solid pink;
+	  width:60px;
+	  height:60px; 
+	  background-size:60px;
+}

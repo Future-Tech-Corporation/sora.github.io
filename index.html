@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 
 <!-- Page title -->
@@ -40,6 +40,7 @@
 <link rel="stylesheet" href="assets/css/magnific-popup.css">
 <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.staticfile.org/ionicons/2.0.1/css/ionicons.min.css">
 <link rel="stylesheet" href="assets/css/theme.css" title="theme-default">
+<link rel="stylesheet" href="assets/css/maintain.css">
 <!-- /Styles -->
 
 <!-- Predefined Schemes -->
@@ -72,6 +73,43 @@
 
 <main class="main-container">
 
+<div class="maintain-info" style="padding-left: 15px;padding-right: 15px; line-height: 16px;">
+	<div style="text-align: center;padding-bottom: 15px;">
+		<svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+		<path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946
+		  s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634
+		  c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"/>
+		<path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
+		  C22.32,8.481,24.301,9.057,26.013,10.047z">
+		  <animateTransform attributeType="xml"
+		    attributeName="transform"
+		    type="rotate"
+		    from="0 20 20"
+		    to="360 20 20"
+		    dur="0.5s"
+		    repeatCount="indefinite"/>
+		  </path>
+		</svg>
+	</div>
+	<div style="text-align: center; padding-top: 5px;padding-bottom: 15px; line-height: 16px; font-size: 36px;cursor: default;">系统维护中</div>
+	<div style="text-align: center; padding-top: 5px;padding-bottom: 15px; font-size: 18px;cursor: default;"><span id="nowTime"></span></div>
+	<div style="text-align: center; padding-top: 5px; padding-bottom: 15px; font-weight: 800;transition: 10px;"><a href="https://blog.kanodayo.net" target="_blank" style="color:#5B5C5F;"><img src="assets/images/mainicon.png" class="blog-himg"><span style="padding-left: 10px ;">kano_dayo</span></a><span style="padding-left: 10px; cursor: default;">维护中...</span>
+	<span style="vertical-align: middle">
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+		   <circle cx="20" cy="20" r="10" stroke="#ececec" stroke-width="2" fill="#2ECC71">
+			<animate id='ani1' attributeName='fill-opacity'  attributeType='XML' begin='0s;ani2.end' dur='2s' from='1' to='0.2' fill='freeze'/>
+			<animate id='ani2' attributeName='fill-opacity'  attributeType='XML' begin='ani1.end' dur='2s' from='0.2' to='1' fill='freeze'/>
+			</circle>
+		</svg> 
+	</span>
+	</div>
+	<div style="text-align: center; padding-top: 5px; padding-bottom: 5px;cursor: default;">Airilib | <span>2022.3.1 </span></div>
+	<div style="text-align: center; padding-top: 5px; padding-bottom: 5px;cursor: default;">©2016-2021 Future-Tech Corporation</div>
+	<div style="text-align: center;font-weight: bold; padding-top: 5px; padding-bottom: 15px;cursor: default;" id="msg"></div>
+</div>
+<section id="maintain" class="maintain">
+	
 <section id="home" class="section hero">
 
 	<div class="owl-carousel owl-theme owl-navigation owl-autoplay owl-no-mousedrag owl-reveal"
@@ -389,7 +427,7 @@
 	</div>
 </section>
 <!-- Powered by FutureTech Network DEPT -->
-
+</section><!-- Maintain -->
 </main>
 
 <!-- SCRIPTS -->

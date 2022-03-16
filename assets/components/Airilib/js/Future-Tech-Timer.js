@@ -10,7 +10,7 @@ function process() {
     percentage += parseInt(Math.random()*10);
     if(percentage > 100){
         percentage = 100;
-        window.location.href = "../login.html";
+        window.location.href = "../index.html";
     }
     showPercentage(+percentage+"%"+" 将自动跳转到登录页面");
     processInterval();
