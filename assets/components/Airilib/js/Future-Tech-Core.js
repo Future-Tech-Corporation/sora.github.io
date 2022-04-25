@@ -18,9 +18,6 @@ function sys(){
                 \|__|\|__|            \|__|        \|__|\|__|        \|__|
             */
         }
-    console.log('System start in progresss');
-    console.log('Initialize ATRI');
-    console.log('Initialize Airilib');
     window.console.log(string.getMultiLine());
     let date = new Date()
     let front = 'background: #4285f4; color: #fff; border-radius: 3px 0 0 3px;'
